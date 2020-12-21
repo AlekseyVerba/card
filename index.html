@@ -2,27 +2,41 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>slider</title>
+	<title>Lesson 16</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/material-kit.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="menu-link">
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+	<section id="main">
+		<h2 class="text-center">Секция №1</h2>
+	</section>
+	<section id="news">
+		<h2 class="text-center">Секция №2</h2>
+	</section>
+	<section id="feedback">
+		<h2 class="text-center">Секция №3</h2>
+	</section>
+	<section id="maps">
+		<h2 class="text-center">Секция №4</h2>
+	</section>
 
-	<div class="container">
-		<div class="slider">
-			<div class="view">
-				<ul class="sliderWrapper">
-					<li class="slide"><img src="img/1.png" alt="1-image"></li>
-					<li class="slide"><img src="img/2.png" alt="2-image"></li>
-					<li class="slide"><img src="img/3.png" alt="3-image"></li>
-					<li class="slide"><img src="img/4.png" alt="4-image"></li>
-				</ul>
-				<div class="nav">
-				</div>
-			</div>
-			<button class="left">назад</button>
-			<button class="right">вперед</button>
-		</div>
-	</div>
+	<menu>
+	<a class="close-btn" href="#close">&times;</a>
+		<ul>
+			<li><a href="#main">Секция №1</a></li>
+			<li><a href="#news">Секция №2</a></li>
+			<li><a href="#feedback">Секция №3</a></li>
+			<li><a href="#maps">Секция №4</a></li>
+		</ul>
+	</menu>
+	
+	
 	
 	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="js/main.js"></script> 
